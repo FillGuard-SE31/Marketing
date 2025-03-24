@@ -199,14 +199,19 @@
 
 import { useState, useEffect } from "react";
 import { Separator } from "@/components/ui/separator";
+import IoTimg1 from "@/components/IoTimg1.png"; // or wherever the image is
+import IoTimg2 from "@/components/IoTimg2.png"; // or wherever the image is
+import IoTimg3 from "@/components/IoTimg3.png"; // or wherever the image is
+
+
 
 const SpecsSection = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [
-    "src/components/IoTimg1.png",
-    "src/components/IoTimg2.png",
-    "src/components/IoTimg3.png"
+    IoTimg1,
+    IoTimg2,
+    IoTimg3
   ];
 
   const specifications = [
